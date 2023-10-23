@@ -12,12 +12,14 @@ int b = 8;
 int c = 0;
 
 if (number < b){ 
-printf("enter number > 8\n");
+printf("ERROR\nEnter number > 8\n");
 }
+else {
 while (b <= number) {
 c = c + b;
 b++;
-
 }
 printf("%d\n", c);
+}
+return 0;
 }
